@@ -81,7 +81,7 @@ Any other value evaluates to `True`, though internally `True` is represented wit
 $ brun '(= (q 100) (q 90))' '()'
 ()
 
-$ brun '(= (q 100) (q 90))' '()'
+$ brun '(= (q 100) (q 100))' '()'
 1
 ```
 

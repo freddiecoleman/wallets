@@ -35,6 +35,7 @@ $ brun '(* (q 2) (q 4) (q 5))' '()'
 
 $ brun '(+ (q 10) (q 20) (q 30) (q 40))' '()'
 100
+```
 
 You may have noticed that the multiplication example above takes more than two parameters in the list.
 This is because many operators can take variable amounts of parameters.

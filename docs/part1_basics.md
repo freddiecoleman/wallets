@@ -79,7 +79,7 @@ Any other value evaluates to `True`, though internally `True` is represented wit
 
 
 ```
-$ brun '(= (q 100) (q 90))' '()'
+$ brun '(= (q 100) (q 90))'
 ()
 
 $ brun '(= (q 100) (q 100))' '()'
@@ -110,8 +110,8 @@ $ brun '(i (q 1) (q 70) (q 80))' '()'
 $ brun '(i (q 12) (q 70) (q 80))' '()'
 70
 
-$ brun '(i (q (70 80 90)) (q 70) (q 80))' '()'
-70
+$ brun '(i (q ()) (q 70) (q 80))' '()'
+80
 ```
 
 Now seems like a good time to clarify further about lists and programs.
